@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  squares = []
+  array.length.times { [i]
+    squares.push([i]**[i])
+  }
+  return squares
 end
